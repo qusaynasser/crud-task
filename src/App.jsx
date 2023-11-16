@@ -10,7 +10,7 @@ export default function App() {
     <>
     <Routes>
       <Route path='/user/index' element={<Index/>}/>
-      <Route path='/user/create' element={<Create/>}/>
+      <Route path='/' element={<Create/>}/>
       <Route path='/user/:id' element={<Details/>}/>
       <Route path='/user/update/:id' element={<Update/>}/>
     </Routes>
